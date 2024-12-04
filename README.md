@@ -7,9 +7,9 @@ This end-to-end machine learning project predicts student performance using a Fl
 
 1. **Clone the Repo**
    
-git clone https://github.com/adarshadda/mlproject.git
+git clone  https://github.com/U0426jwala/Student-Performance-Prediciton.git
 
-cd mlproject
+cd Student-Performance-Prediciton
 
 3. **Install Dependencies**
    
