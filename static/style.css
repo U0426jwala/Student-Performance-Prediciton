@@ -1,0 +1,64 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #001C30; 
+}
+
+.all {
+    background-color: #6bb1e0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+    border-radius: 8px;       
+    padding: 20px;
+    width: 550px; /* Increased width */
+    max-width: 90%; /* Ensures it fits on smaller screens */
+    color: #393737;
+}
+
+h1 {
+    text-align: center;
+    color: #001C30;
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+}
+
+/* Form Styles */
+.form-label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-control, select {
+    width: 100%;
+    padding: 8px; /* Reduced padding */
+    margin-bottom: 12px; /* Reduced margin */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.btn-primary {
+    background-color: #0c010c;
+    color: #ffffff;
+    padding: 8px 12px; /* Reduced padding */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #045c91;
+}
+
+/* Prediction Result */
+h2 {
+    text-align: center;
+    color: #001C30; 
+    margin-top: 20px;
+}
+
